@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    font-family: 'Inter', sans-serif;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-success {
+    background-color: #5CB85F;
+}
+
+#head, #description, #why-us, #testimonial, #rent, #faq {
+    margin-bottom: 6rem;
+}
+
+/* NAVBAR */
+header {
+    background-color: #F1F3FF;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://res.cloudinary.com/dqaixl4l8/image/upload/v1715795853/binar-car-rental/fi_menu_sakiqb.svg');
+}
+
+.rectangle-nav {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+/* END NAVBAR */
+
+/* HEAD */
+#head {
+    background-color: #F1F3FF;
+}
+
+#head h2 {
+    font-size: 36px;
+}
+
+#head p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+#head button {
+    font-size: 14px;
+}
+
+.car { 
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+/* END HEAD */
+
+/* DESCRIPTION */
+#description {
+    background-color: white;
+}
+
+#description h2 {
+    font-size: 24px;
+}
+
+#description p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+#description li {
+    font-size: 14px;
+}
+
+.woman{
+    margin: 2rem;
+    width: 70%;
+    height: 85%;
+}
+/* END DESCRIPTION */
+
+/* TESTIMONIAL */
+#testimonial p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+#testimonial h5 {
+    font-size: 14px;
+}
+
+.testi {
+    height: 270px;
+    width: 619px;
+    background-color: #F1F3FF;
+}
+
+.owl-carousel .owl-item img {
+    display: block !important;
+    width: auto !important;
+}
+
+.avatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background: url('https://res.cloudinary.com/dqaixl4l8/image/upload/v1715795857/binar-car-rental/img_photo_ht4tsl.png');
+}
+/* END TESTIMONIAL */
+
+/* RENT */
+#rent h2 {
+    font-size: 36px;
+}
+
+#rent p {
+    font-size: 14px;
+}
+
+.info-box {
+    background-color: #0D28A6;
+}
+/* END RENT */
+
+/* FAQ */
+#faq .faq-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+#faq p {
+    font-size: 14px;
+    text-align: center;
+}
+/* END FAQ */
+
+.title {
+    margin-left: 136px;
+    margin-right: 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .testi {
+        width: 90vw;
+        height: 372px;
+    }
+    .woman{
+        margin: 2rem;
+        width: 60%;
+        height: 85%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /* RENT */
+    #rent h2 {
+        font-size: 24px;
+    }
+    /* END RENT */
+
+    .testi {
+        width: 90vw;
+        height: 400px;
+    }
+}
